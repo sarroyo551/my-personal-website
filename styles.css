@@ -51,10 +51,17 @@ img {
 }
 .centerProject {
     text-align: center;
+    text-decoration: underline;
 }
 p {
     text-align: center;
 }
 .score {
     text-align: center;
+}
+.underlineAbout {
+    text-decoration: underline;
+}
+.underlineContact {
+    text-decoration: underline;
 }
