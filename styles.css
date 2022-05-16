@@ -2,8 +2,31 @@ body {
     background: rgb(144, 144, 228);
     
 }
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
 
-ul {
-    display: inline;
-    float: top;
+img {
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    text-align: center;
+}
+
+#about-me-div {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
 }
