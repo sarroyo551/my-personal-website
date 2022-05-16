@@ -1,7 +1,12 @@
 body {
     background: rgb(144, 144, 228);
-    
+    font-family: monospace;   
 }
+h1 {
+    text-align: center;
+    border: 3px dotted rgb(70, 58, 172);
+}
+
 nav {
     text-align: center;
     display: flex;
@@ -13,15 +18,13 @@ img {
     height: 100px;
     width: 100px;
 }
-h1 {
-    text-align: center;
-}
 
-#about-me-div {
+#about-me {
     text-align: center;
     width: auto;
     margin: auto;
     padding: auto;
+    justify-content: center;
 }
 
 .grid {
@@ -30,5 +33,24 @@ h1 {
     height: 300px;
     width: 400px;
     justify-content: center;
+    margin: auto;
 }
 
+#project {
+    margin: auto;
+    width: 50%;
+    border: 3px  ;
+    padding: 10px;
+}
+#contact {
+    text-align: center;
+}
+.centerProject {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.score {
+    text-align: center;
+}
