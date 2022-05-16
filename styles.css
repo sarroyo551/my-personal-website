@@ -5,6 +5,8 @@ body {
 h1 {
     text-align: center;
     border: 3px dotted rgb(70, 58, 172);
+    width: 200px;
+    margin: 0 auto;
 }
 
 nav {
@@ -17,11 +19,12 @@ nav {
 img {
     height: 100px;
     width: 100px;
+    border: 1px dashed rgb(134, 97, 208);
 }
 
 #about-me {
     text-align: center;
-    width: auto;
+    width: 500px;
     margin: auto;
     padding: auto;
     justify-content: center;
@@ -30,10 +33,11 @@ img {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
-    width: 400px;
+    height: auto;
+    width: 415px;
     justify-content: center;
     margin: auto;
+    border: 3px solid rgb(70, 58, 172);
 }
 
 #project {
