@@ -110,3 +110,42 @@ function flipCard() {
 
 createBoard()
 
+
+
+//angry magic eight ball
+
+const userName = 'Stranger'
+userName ? console.log(`Hello, ${userName}!`) : 
+  console.log('Hello!');
+const userQuestion = 'Will it rain today';
+  console.log(`You asked: ${userQuestion}.`);
+const randomNumber = Math.floor(Math.random()*8);
+let eightBall = ''
+switch (randomNumber) {
+  case 0:
+    eightBall = 'That is not your concern'
+    break;
+  case 1:
+    eightBall = 'Not a problem of mine'
+    break;
+  case 2:
+    eightBall = 'Yes... but really no'
+    break;
+  case 3:
+   eightBall = 'Figure it out yourself'
+    break;
+  case 4:
+    eightBall = 'Why must you ask so many questions?'
+    break;
+  case 5:
+    eightBall = 'I do not care'
+    break;
+  case 6:
+    eightBall = 'Maybe. Maybe not'
+    break;
+  case 7:
+    eightBall = 'Signs point to nothing'
+    break;
+}
+console.log(`The eight ball answered:
+ ${eightBall}`);
