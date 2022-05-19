@@ -79,8 +79,8 @@ function checkForMatch () {
     const optionTwoId = cardsChosenId[1]
     if (cardsChosen[0] === cardsChosen[1]){
         alert('You found a match!')
-        cards[optionOneId].setAttribute('src', './images/black_space')
-        cards[optionTwoId].setAttribute('src', './images/black_space')
+        cards[optionOneId].setAttribute('src', './images/checkmark.webp')
+        cards[optionTwoId].setAttribute('src', './images/checkmark.webp')
         cardsWon.push(cardsChosen)
     } else {
         cards[optionOneId].setAttribute('src', './images/blank.png')
