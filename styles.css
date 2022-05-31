@@ -93,6 +93,9 @@ input {
     border: 3px solid rgb(96, 53, 164);
     border-radius: 100px;
 }
+#answer {
+    text-align: center;
+}
 /*.spaceEight {
     border: 20px 0 solid rgb(190, 222, 222);
     
