@@ -143,15 +143,17 @@ switch (randomNumber) {
     eightBall = 'Maybe. Maybe not'
     break;
   case 7:
-    eightBall = 'Signs point to nothing'
+    eightBall = 'Signs point to who cares'
     break;
 }
 //ball.append(eightBall)
+const answer = document.getElementById('answer');
 console.log(`The eight ball answered:
 ${eightBall}`);
 let h2 = document.createElement('h2')
 h2.innerHTML = eightBall;
-ball.append(h2)
+answer.innerHTML = '';
+answer.append(h2)
   console.log(`You asked: ${userQuestion}.`);
 }
 
